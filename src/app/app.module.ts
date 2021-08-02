@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductItemComponent } from './products/item/productItem.component';
 import { ProductListComponent } from './products/productList.component'
+import { TresFuteModule } from './tres-fute/tres-fute.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +14,8 @@ import { ProductListComponent } from './products/productList.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TresFuteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
