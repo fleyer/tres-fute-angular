@@ -1,0 +1,8 @@
+<button (click)="increase()">Add</button>
+
+<h1>size</h1>
+<p>{{size}}</p>
+
+<div *ngFor="let product of products">
+    <product-item [product]="product"></product-item>
+</div>
